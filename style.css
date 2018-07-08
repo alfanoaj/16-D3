@@ -14,10 +14,10 @@
   opacity: 0.3;
 }
 
-.tooltip {
+.tooltips {
   position: absolute;
   width: 135px;
-  height: 70px;
+  height: 63px;
   padding: 2px;
   padding-top: 8px;
   font: 12px sans-serif;

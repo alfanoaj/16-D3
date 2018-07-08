@@ -3,39 +3,40 @@
 	<head>
 		<meta charset="utf-8">
 		<title>D3 Times</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-md-12 col-md-offset-0">
-					<h1>D3Times</h1>
-				</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+				<h1 class="text-center">D3Times</h1>
 			</div>
-			<div class="row">
-				<div class="col-xs-12  col-md-9 col-md-offset-0">
-					<div class="iframeContainer">
-						<div class="chart">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12  col-md-9 col-md-offset-0">
-					<div class="article">
-						<h1>Correlations Discovered Between Health Risks and Age, Income</h1>
-						<p>As we look at the data, there is a direct correlation between the poverty percentage and the adverse health risks.  
-							In general, the higher the percentage of poverty, the higher the likelihood of adverse health risks.  There is no discernable
-							correlation between the median age and the various different health risks, but there is an inverse correlation to the median
-							household income and the health risks.  As median household income increases, we see a decline in the percentage of individuals
-							in all three categories -- obesity, smoking, and lacking healthcare.
-						</p>
+		</div>
+		<div class="row">
+			<div class="col-xs-12  col-md-9 col-md-offset-0">
+				<div class="iframeContainer">
+					<div class="chart">
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-xs-12  col-md-8 col-md-offset-2">
+				<div class="article">
+					<h1 class="text-center">Correlations Discovered Between Health Risks and Age, Income</h1>
+					<p class="text-center">As we look at the data, there is a direct correlation between the poverty percentage and the adverse health risks.  
+						In general, the higher the percentage of poverty, the higher the likelihood of adverse health risks.  There is no discernable
+						correlation between the median age and the various different health risks, but there is an inverse correlation to the median
+						household income and the health risks.  As median household income increases, we see a decline in the percentage of individuals
+						in all three categories -- obesity, smoking, and lacking healthcare.
+					</p>
+				</div>
+			</div>
+		</div>
+
 		<script type="text/javascript" src="app.js"></script>
     </body>
 </html>
